@@ -40,7 +40,7 @@ RUN mkdir /usr/share/nginx/html/jbrowse
 
 RUN rm /usr/share/nginx/html/index.html && rm /usr/share/nginx/html/50x.html && cp -r /jbrowse/* /usr/share/nginx/html/jbrowse && \
     cp /jbrowse/.htaccess /usr/share/nginx/html/jbrowse/.htaccess && \
-    cp /flybase-jbrowse/jbrowse/example.html /usr/share/nginx/html/jbrowse && \
+    cp /flybase-jbrowse/jbrowse/jbrowse.conf /usr/share/nginx/html/jbrowse/ && \
     cp -r /flybase-jbrowse/jbrowse/data /usr/share/nginx/html/jbrowse
 
 #getting the cached Alliance favicons to overwrite the J provide by JBrowse
@@ -65,7 +65,6 @@ COPY --from=build /usr/share/nginx/html/jbrowse/css /usr/share/nginx/html/jbrows
 COPY --from=build /usr/share/nginx/html/jbrowse/data /usr/share/nginx/html/jbrowse/data
 COPY --from=build /usr/share/nginx/html/jbrowse/img /usr/share/nginx/html/jbrowse/img
 COPY --from=build /usr/share/nginx/html/jbrowse/index.html /usr/share/nginx/html/jbrowse/index.html
-COPY --from=build /usr/share/nginx/html/jbrowse/example.html /usr/share/nginx/html/jbrowse/example.html
 COPY --from=build /usr/share/nginx/html/jbrowse/jbrowse_conf.json /usr/share/nginx/html/jbrowse/jbrowse_conf.json
 COPY --from=build /usr/share/nginx/html/jbrowse/jbrowse.conf /usr/share/nginx/html/jbrowse/jbrowse.conf
 COPY --from=build /usr/share/nginx/html/jbrowse/LICENSE /usr/share/nginx/html/jbrowse/LICENSE
