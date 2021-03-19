@@ -3,7 +3,7 @@
    "formatVersion" : 1,
    "names" : {
       "type" : "Hash",
-      "url" : "names/"
+      "url" : "http://flybase.org/jbrowse/data/json/dmel/names/"
    },
 	 "include" : [ "functions.conf", "wormbase-functions.conf" ],
    "tracks" : [
@@ -20,7 +20,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/Sequence/StaticChunked",
          "type" : "SequenceTrack",
-         "urlTemplate" : "seq/{refseq_dirpath}/{refseq}-"
+         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/seq/{refseq_dirpath}/{refseq}-"
       },
       {
          "style" : {
