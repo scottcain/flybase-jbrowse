@@ -1091,17 +1091,17 @@
 
       {
          "compress" : 0,
-	       "label" : "topoview_chromatin_domains_kc",
-				 "key" : "Chromatin Domains (5-state model, Kc cells)",
+	 "label" : "topoview_chromatin_domains_kc",
+	 "key" : "Chromatin Domains (5-state model, Kc cells)",
          "category" : "Genome Level Features / Chromatin Features <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Chromatin_Features> [?]",
          "unsafeMouseover": true,
          "unsafePopup": true,
-				 "metadata" : {
-				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Chromatin_Features'>Chromatin_Features</a>",
-					 "trackLegend" : '<tr align="left"><td><center><b>Chromatin Types in Kc167 cells (<a target="_blank" href="/reports/FBrf0212051">Filion et al, 2010</a>).</b></center><span style="background: rgb(0,102,0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- corresponds to classic (including pericentric) heterochromatin.<br><span style="background: rgb(0,51,172);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- PcG (Polycomb Group) chromatin; subject to epigenetic silencing.<br><span style="background: rgb(34,34,34);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- transcriptionally silent (in cell type assayed); probably dynamic.<br><span style="background: rgb(207,51,51);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- transcriptionally active euchromatin; genes usually developmentally regulated.<br><span style="background: rgb(255,204,0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- transcriptionally active euchromatin; genes usually broadly expressed.<br></td></tr>'
-				 }, 
+	 "metadata" : {
+	   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Chromatin_Features'>Chromatin_Features</a>",
+           "trackLegend" : '<tr align="left"><td><center><b>Chromatin Types in Kc167 cells (<a target="_blank" href="/reports/FBrf0212051">Filion et al, 2010</a>).</b></center><span style="background: rgb(0,102,0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- corresponds to classic (including pericentric) heterochromatin.<br><span style="background: rgb(0,51,172);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- PcG (Polycomb Group) chromatin; subject to epigenetic silencing.<br><span style="background: rgb(34,34,34);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- transcriptionally silent (in cell type assayed); probably dynamic.<br><span style="background: rgb(207,51,51);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- transcriptionally active euchromatin; genes usually developmentally regulated.<br><span style="background: rgb(255,204,0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- transcriptionally active euchromatin; genes usually broadly expressed.<br></td></tr>'
+	 }, 
          "storeClass" : "JBrowse/Store/TiledImage/Fixed",
-	       "style" : {
+         "style" : {
             "className" : "image"
          },
          "type" : "ImageTrack",
