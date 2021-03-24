@@ -74,7 +74,7 @@
 				 }, 
          "trackType" : "JBrowse/View/Track/CanvasFeatures",
 				 "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/Gene/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/test/tracks/Gene/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "Gene"
