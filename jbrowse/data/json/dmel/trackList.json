@@ -64,7 +64,7 @@
 					 "iconClass" : "dijitIconDatabase",
            "action" : "contentDialog",
 					 "hideIframeDialogUrl" : true,
-           "content" : "<iframe src='/cgi-bin/get_summary.pl?mode=ForJBrowse&db=fbgn&fbid={id}' width=450 height=250></iframe>",
+           "content" : "<iframe src='http://flybase.org/cgi-bin/get_summary.pl?mode=ForJBrowse&db=fbgn&fbid={id}' width=450 height=250></iframe>",
            "label" : "function() { return 'View automated summary for gene '+this.feature.get('name'); }"
          },
          "unsafeMouseover": true,
