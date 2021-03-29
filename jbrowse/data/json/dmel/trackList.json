@@ -246,7 +246,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "comment" : {"glyph" : "flybase-glyphs/View/FeatureGlyph/Aberration"},
+         "glyph" : "flybase-glyphs/View/FeatureGlyph/Aberration",
          "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/deleted_segment/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
@@ -271,7 +271,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "comment" : {"glyph" : "flybase-glyphs/View/FeatureGlyph/Aberration"},
+         "glyph" : "flybase-glyphs/View/FeatureGlyph/Aberration",
          "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/duplicated_segment/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
@@ -298,7 +298,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "comment" : {"glyph" : "flybase-glyphs/View/FeatureGlyph/Aberration"},
+         "glyph" : "flybase-glyphs/View/FeatureGlyph/Aberration",
          "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/deleted_segment_sc/{refseq}/trackData.json"
       },
       {
@@ -322,7 +322,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "comment" : {"glyph" : "flybase-glyphs/View/FeatureGlyph/Aberration"},
+         "glyph" : "flybase-glyphs/View/FeatureGlyph/Aberration",
          "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/deleted_segment_bdk/{refseq}/trackData.json"
       },
       {
@@ -367,7 +367,7 @@
          "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/transposable_element_insertion_site/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
-         "comment" : {"glyph" : "flybase-glyphs/View/FeatureGlyph/Insertion"},
+         "glyph" : "flybase-glyphs/View/FeatureGlyph/Insertion",
          "label" : "transposable_element_insertion_site"
       },
       {
@@ -390,7 +390,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "comment" : {"glyph" : "flybase-glyphs/View/FeatureGlyph/Insertion"},
+         "glyph" : "flybase-glyphs/View/FeatureGlyph/Insertion",
          "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/insertion_sc/{refseq}/trackData.json"
       },
 
@@ -1188,7 +1188,7 @@
          "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/insulator_1/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
-         "comment" : {"glyph" : "flybase-glyphs/View/FeatureGlyph/Insertion"},
+         "glyph" : "flybase-glyphs/View/FeatureGlyph/Insertion",
          "label" : "insulator_1"
       },
       {
@@ -1211,7 +1211,7 @@
          "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/insulator_2/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
-         "comment" : {"glyph" : "flybase-glyphs/View/FeatureGlyph/Insertion"},
+         "glyph" : "flybase-glyphs/View/FeatureGlyph/Insertion",
          "label" : "insulator_2"
       },
       {
@@ -1618,7 +1618,7 @@
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/TSS_embryonic/{refseq}/trackData.json",
-         "comment" : {"glyph" : "flybase-glyphs/View/FeatureGlyph/TSS_RNASeq"},
+         "glyph" : "flybase-glyphs/View/FeatureGlyph/TSS_RNASeq",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "TSS_embryonic"
@@ -1732,7 +1732,7 @@
          "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/exon_junction/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
-         "comment" : {"glyph" : "flybase-glyphs/View/FeatureGlyph/ExonJunction"},
+         "glyph" : "flybase-glyphs/View/FeatureGlyph/ExonJunction",
          "label" : "exon_junction"
       },
       {
@@ -1775,7 +1775,7 @@
          "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/modified_RNA_base_feature/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
-         "comment" : {"glyph" : "flybase-glyphs/View/FeatureGlyph/DownTriangle"},
+         "glyph" : "flybase-glyphs/View/FeatureGlyph/DownTriangle",
          "label" : "modified_RNA_base_feature"
       },
 
@@ -1878,7 +1878,7 @@
 					 "iconClass" : "dijitIconDatabase",
            "action" : "contentDialog",
 					 "hideIframeDialogUrl" : "true",
-           "content" : "<iframe id='{ID}_fbab' src='/cgi-bin/get_summary.pl?mode=ForJBrowse&caller=JBrowse&db=fbab&xtra={ID}_fbab&fbid={Accession}' width=150 height=150></iframe>",
+           "content" : "<iframe id='{ID}_fbab' src='/cgi-bin/get_summary.pl?mode=ForJBrowse&caller=JBrowse&db=fbab&xtra={ID}_fbab&fbid={Accession}' width=150 height=150></iframe>"
 				 },
          "label" : "duplicated_segment_sc",
          "unsafeMouseover": true,
@@ -1893,7 +1893,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "comment" : {"glyph" : "flybase-glyphs/View/FeatureGlyph/Aberration"},
+         "glyph" : "flybase-glyphs/View/FeatureGlyph/Aberration",
          "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/duplicated_segment_sc/{refseq}/trackData.json"
       },
 
