@@ -41,6 +41,7 @@ RUN mkdir /usr/share/nginx/html/jbrowse
 RUN rm /usr/share/nginx/html/index.html && rm /usr/share/nginx/html/50x.html && cp -r /jbrowse/* /usr/share/nginx/html/jbrowse && \
     cp /jbrowse/.htaccess /usr/share/nginx/html/jbrowse/.htaccess && \
     cp /flybase-jbrowse/jbrowse/jbrowse.conf /usr/share/nginx/html/jbrowse/ && \
+    cp -r /flybase-jbrowse/jbrowse/plugins/* /usr/share/nginx/html/jbrowse/plugins/ && \
     cp -r /flybase-jbrowse/jbrowse/data /usr/share/nginx/html/jbrowse
 
 #getting the cached Alliance favicons to overwrite the J provide by JBrowse
