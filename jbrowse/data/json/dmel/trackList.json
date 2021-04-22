@@ -39,7 +39,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "JBrowse/View/Track/CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/Gene_span/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/Gene_span/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "JBrowse/View/Track/CanvasFeatures",
          "label" : "Gene_span"
@@ -96,7 +96,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "JBrowse/View/Track/CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/RNA/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/RNA/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "RNA"
@@ -117,7 +117,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/prote_in/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/prote_in/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "prote_in"
@@ -141,7 +141,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/putative_ortholog/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/putative_ortholog/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "putative_ortholog"
@@ -162,7 +162,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/transposable_element/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/transposable_element/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "transposable_element"
@@ -179,7 +179,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/repeat_region/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/repeat_region/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "repeat_region"
@@ -195,7 +195,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/chromosome_band/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/chromosome_band/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "chromosome_band"
@@ -222,7 +222,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/breakpoint/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/breakpoint/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "breakpoint"
@@ -247,7 +247,7 @@
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
          "glyph" : "flybase-glyphs/View/FeatureGlyph/Aberration",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/deleted_segment/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/deleted_segment/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "deleted_segment"
@@ -272,7 +272,7 @@
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
          "glyph" : "flybase-glyphs/View/FeatureGlyph/Aberration",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/duplicated_segment/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/duplicated_segment/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "duplicated_segment"
@@ -299,7 +299,7 @@
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
          "glyph" : "flybase-glyphs/View/FeatureGlyph/Aberration",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/deleted_segment_sc/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/deleted_segment_sc/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -323,7 +323,7 @@
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
          "glyph" : "flybase-glyphs/View/FeatureGlyph/Aberration",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/deleted_segment_bdk/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/deleted_segment_bdk/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -340,7 +340,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/gap_filling_segment_bdk/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/gap_filling_segment_bdk/{refseq}/trackData.json"
       },
 
 
@@ -364,7 +364,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/transposable_element_insertion_site/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/transposable_element_insertion_site/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "glyph" : "flybase-glyphs/View/FeatureGlyph/Insertion",
@@ -391,7 +391,7 @@
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
          "glyph" : "flybase-glyphs/View/FeatureGlyph/Insertion",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/insertion_sc/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/insertion_sc/{refseq}/trackData.json"
       },
 
 
@@ -414,7 +414,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/point_mutation/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/point_mutation/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "point_mutation"
@@ -435,7 +435,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/indels/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/indels/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "indels"
@@ -456,7 +456,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/complex_substitution/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/complex_substitution/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "complex_substitution"
@@ -477,7 +477,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/uncharacterized_change_in_nucleotide_sequence/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/uncharacterized_change_in_nucleotide_sequence/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "uncharacterized_change_in_nucleotide_sequence"
@@ -529,7 +529,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/sequence_variant/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/sequence_variant/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "sequence_variant"
@@ -568,7 +568,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/GMR_Brain_exp/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/GMR_Brain_exp/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "GMR_Brain_exp"
@@ -594,7 +594,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/VDRC_VT/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/VDRC_VT/{refseq}/trackData.json"
       },
 
 
@@ -620,7 +620,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/trip_oe/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/trip_oe/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -641,7 +641,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/trip_oe_flysam/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/trip_oe_flysam/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -662,7 +662,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/trip_ko/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/trip_ko/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -683,7 +683,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/weiz_ko/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/weiz_ko/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -704,7 +704,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/hd_cfd/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/hd_cfd/{refseq}/trackData.json"
       },
 
 
@@ -729,7 +729,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/high_nooff/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/high_nooff/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -746,7 +746,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/med_nooff/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/med_nooff/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -763,7 +763,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/low_nooff/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/low_nooff/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -780,7 +780,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/1to3noncds_off/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/1to3noncds_off/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -797,7 +797,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/many_off/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/many_off/{refseq}/trackData.json"
       },
 
 
@@ -820,7 +820,7 @@
 				 },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/pcr_product_2/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/pcr_product_2/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "pcr_product_2"
@@ -841,7 +841,7 @@
 				 },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/pcr_product_5/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/pcr_product_5/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "pcr_product_5"
@@ -862,7 +862,7 @@
 				 },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/pcr_product_6/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/pcr_product_6/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "pcr_product_6"
@@ -883,7 +883,7 @@
 				 },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/pcr_product_7/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/pcr_product_7/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "pcr_product_7"
@@ -904,7 +904,7 @@
 				 },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/pcr_product_8/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/pcr_product_8/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "pcr_product_8"
@@ -925,7 +925,7 @@
 				 },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/pcr_product_9/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/pcr_product_9/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "pcr_product_9"
@@ -954,7 +954,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/rescue_fragment/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/rescue_fragment/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "rescue_fragment"
@@ -984,7 +984,7 @@
 				 },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/CHORI-321_BAC/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/CHORI-321_BAC/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -1005,7 +1005,7 @@
 				 },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/CHORI-322_BAC/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/CHORI-322_BAC/{refseq}/trackData.json"
       },
 
 
@@ -1028,7 +1028,7 @@
 				 },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/oligo_1/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/oligo_1/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -1046,7 +1046,7 @@
 				 },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/oligo_2/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/oligo_2/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -1064,7 +1064,7 @@
 				 },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/pcr_product_1/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/pcr_product_1/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -1082,7 +1082,7 @@
 				 },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/oligo_3/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/oligo_3/{refseq}/trackData.json"
       },
 
 
@@ -1105,7 +1105,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_chromatin_domains_kc/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_chromatin_domains_kc/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -1123,7 +1123,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_chromatin_domains_s2/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_chromatin_domains_s2/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -1141,7 +1141,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_chromatin_domains_bg3/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_chromatin_domains_bg3/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -1161,7 +1161,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/histone_modifications/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/histone_modifications/{refseq}/trackData.json"
       },
 
 
@@ -1185,7 +1185,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/insulator_1/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/insulator_1/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "glyph" : "flybase-glyphs/View/FeatureGlyph/Insertion",
@@ -1208,7 +1208,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/insulator_2/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/insulator_2/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "glyph" : "flybase-glyphs/View/FeatureGlyph/Insertion",
@@ -1230,7 +1230,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/silencer/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/silencer/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "silencer"
@@ -1251,7 +1251,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/regulatory_region1/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/regulatory_region1/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "regulatory_region1"
@@ -1277,7 +1277,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/protein_binding_site/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/protein_binding_site/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "protein_binding_site"
@@ -1300,7 +1300,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/Furlong_TFBS_embryo_2-4h/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/Furlong_TFBS_embryo_2-4h/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -1320,7 +1320,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/Furlong_TFBS_embryo_4-6h/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/Furlong_TFBS_embryo_4-6h/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -1340,7 +1340,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/Furlong_TFBS_embryo_6-8h/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/Furlong_TFBS_embryo_6-8h/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -1360,7 +1360,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/Furlong_TFBS_embryo_8-10h/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/Furlong_TFBS_embryo_8-10h/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -1380,7 +1380,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/Furlong_TFBS_embryo_10-12h/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/Furlong_TFBS_embryo_10-12h/{refseq}/trackData.json"
       },
       {
          "style" : {
@@ -1398,7 +1398,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/tf_binding_site5/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/tf_binding_site5/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "tf_binding_site5"
@@ -1419,7 +1419,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/tf_binding_site1/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/tf_binding_site1/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "tf_binding_site1"
@@ -1440,7 +1440,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/tf_binding_site2/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/tf_binding_site2/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "tf_binding_site2"
@@ -1461,7 +1461,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/tf_binding_site3/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/tf_binding_site3/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "tf_binding_site3"
@@ -1482,7 +1482,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/tf_binding_site4/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/tf_binding_site4/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "tf_binding_site4"
@@ -1503,7 +1503,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/tf_binding_site6/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/tf_binding_site6/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "tf_binding_site6"
@@ -1528,7 +1528,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/origin_of_replication/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/origin_of_replication/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "origin_of_replication"
@@ -1557,7 +1557,7 @@
 				 },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/cDNA/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/cDNA/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "cDNA"
@@ -1574,7 +1574,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/other_aligned/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/other_aligned/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "other_aligned"
@@ -1595,7 +1595,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/EST/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/EST/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "EST"
@@ -1617,7 +1617,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/TSS_embryonic/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/TSS_embryonic/{refseq}/trackData.json",
          "glyph" : "flybase-glyphs/View/FeatureGlyph/TSS_RNASeq",
          "compress" : 0,
          "type" : "CanvasFeatures",
@@ -1639,7 +1639,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/TSS_rampage/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/TSS_rampage/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "TSS_rampage"
@@ -1659,7 +1659,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_rampage_tss_stranded1/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_rampage_tss_stranded1/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -1676,7 +1676,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_rampage_tss_stranded2/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_rampage_tss_stranded2/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -1693,7 +1693,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_rampage_tss_stranded5/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_rampage_tss_stranded5/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -1710,7 +1710,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_machibase_tss_cage/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_machibase_tss_cage/{refseq}/trackData.json"
       },
       {
          "style" : {
@@ -1729,7 +1729,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/exon_junction/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/exon_junction/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "glyph" : "flybase-glyphs/View/FeatureGlyph/ExonJunction",
@@ -1753,7 +1753,7 @@
          "trackType" : "CanvasFeatures",
          "compress" : 0,
          "type" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/polyA_site/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/polyA_site/{refseq}/trackData.json",
          "label" : "polyA_site"
       },
       {
@@ -1772,7 +1772,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/modified_RNA_base_feature/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/modified_RNA_base_feature/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "glyph" : "flybase-glyphs/View/FeatureGlyph/DownTriangle",
@@ -1802,7 +1802,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/protein_domains/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/protein_domains/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "protein_domains"
@@ -1823,7 +1823,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/protein_domains_smart/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/protein_domains_smart/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "protein_domains_smart"
@@ -1846,7 +1846,7 @@
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/proteomic_peptides/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/proteomic_peptides/{refseq}/trackData.json",
          "compress" : 0
       },
       {
@@ -1861,7 +1861,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/peptideatlas_peptides/{refseq}/trackData.json",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/peptideatlas_peptides/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
          "label" : "peptideatlas_peptides"
@@ -1894,7 +1894,7 @@
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
          "glyph" : "flybase-glyphs/View/FeatureGlyph/Aberration",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/duplicated_segment_sc/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/duplicated_segment_sc/{refseq}/trackData.json"
       },
 
 
@@ -1915,7 +1915,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_modencode_30devstages/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_modencode_30devstages/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -1932,7 +1932,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_tissues_stranded1/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_tissues_stranded1/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -1949,7 +1949,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_tissues_stranded2/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_tissues_stranded2/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -1966,7 +1966,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_tissues_stranded3/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_tissues_stranded3/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -1983,7 +1983,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_tissues_stranded4/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_tissues_stranded4/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -2000,7 +2000,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_tissues_stranded5/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_tissues_stranded5/{refseq}/trackData.json"
       },
 
       {
@@ -2018,7 +2018,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_celllines_stranded1/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_celllines_stranded1/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -2035,7 +2035,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_treatments_stranded1/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_treatments_stranded1/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -2052,7 +2052,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_neuron_stranded1/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_neuron_stranded1/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -2069,7 +2069,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_nb_stranded1/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_nb_stranded1/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -2086,7 +2086,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_NCBI_aggregate_10000/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_NCBI_aggregate_10000/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -2103,7 +2103,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_NCBI_aggregate_1000/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_NCBI_aggregate_1000/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -2120,7 +2120,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_NCBI_aggregate_100/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_NCBI_aggregate_100/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -2137,7 +2137,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_flyatlas2_nervous_system/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_flyatlas2_nervous_system/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -2154,7 +2154,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_flyatlas2_digestive_system/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_flyatlas2_digestive_system/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -2171,7 +2171,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_flyatlas2_reproductive_system/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_flyatlas2_reproductive_system/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -2188,7 +2188,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_flyatlas2_other_systems/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_flyatlas2_other_systems/{refseq}/trackData.json"
       },
 
 
@@ -2209,7 +2209,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_Lai_devstages/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_Lai_devstages/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -2226,7 +2226,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_Lai_tissues/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_Lai_tissues/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -2243,7 +2243,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_Lai_clones_1/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_Lai_clones_1/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -2260,7 +2260,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_Lai_clones_2/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_Lai_clones_2/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -2277,7 +2277,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_Lai_clones_3/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_Lai_clones_3/{refseq}/trackData.json"
       },
 
 
@@ -2296,7 +2296,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_flyatlas2_small_nervous_system/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_flyatlas2_small_nervous_system/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -2313,7 +2313,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_flyatlas2_small_digestive_system/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_flyatlas2_small_digestive_system/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -2330,7 +2330,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_flyatlas2_small_reproductive_system/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_flyatlas2_small_reproductive_system/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -2347,7 +2347,7 @@
             "className" : "image"
          },
          "type" : "ImageTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/topoview_flyatlas2_small_other_systems/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/topoview_flyatlas2_small_other_systems/{refseq}/trackData.json"
       },
 
 
@@ -2364,7 +2364,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/NCBI_gnomon_1/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/NCBI_gnomon_1/{refseq}/trackData.json"
       },
       {
          "compress" : 0,
@@ -2376,7 +2376,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/tracks/CONGO_1/{refseq}/trackData.json"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/tracks/CONGO_1/{refseq}/trackData.json"
       }
    ]
 }
