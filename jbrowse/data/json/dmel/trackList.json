@@ -3,7 +3,7 @@
    "formatVersion" : 1,
    "names" : {
       "type" : "Hash",
-      "url" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/"
+      "url" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/names/"
    },
 	 "include" : [ "functions.conf", "wormbase-functions.conf" ],
    "tracks" : [
