@@ -9,7 +9,7 @@
    "tracks" : [
       {
          "chunkSize" : 80000,
-         "compress" true,
+         "compress" : 1,
 				 "category" : "Reference Genome <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Reference_Genome> [?]",
          "key" : "Nucleotide View",
          "label" : "DNA",
