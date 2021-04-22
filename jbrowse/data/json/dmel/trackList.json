@@ -8,7 +8,8 @@
 	 "include" : [ "functions.conf", "wormbase-functions.conf" ],
    "tracks" : [
       {
-         "chunkSize" : 20000,
+         "chunkSize" : 80000,
+         "compress" true,
 				 "category" : "Reference Genome <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Reference_Genome> [?]",
          "key" : "Nucleotide View",
          "label" : "DNA",
