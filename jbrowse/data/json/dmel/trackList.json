@@ -20,7 +20,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/Sequence/StaticChunked",
          "type" : "SequenceTrack",
-         "urlTemplate" : "/https://s3.amazonaws.com/agrjbrowse/FlyBase/fruitfly/seq/{refseq_dirpath}/{refseq}-"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/FlyBase/fruitfly/seq/{refseq_dirpath}/{refseq}-"
       },
       {
          "style" : {
