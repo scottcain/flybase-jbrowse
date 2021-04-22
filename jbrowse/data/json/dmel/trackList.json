@@ -3,7 +3,7 @@
    "formatVersion" : 1,
    "names" : {
       "type" : "Hash",
-      "url" : "http://flybase.org/jbrowse/data/json/dmel/names/"
+      "url" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/FlyBase/dmel/"
    },
 	 "include" : [ "functions.conf", "wormbase-functions.conf" ],
    "tracks" : [
@@ -20,7 +20,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/Sequence/StaticChunked",
          "type" : "SequenceTrack",
-         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/seq/{refseq_dirpath}/{refseq}-"
+         "urlTemplate" : "/https://s3.amazonaws.com/agrjbrowse/FlyBase/fruitfly/seq/{refseq_dirpath}/{refseq}-"
       },
       {
          "style" : {
