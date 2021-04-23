@@ -544,7 +544,7 @@
 				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Sequence_variants'>Sequence_variants</a>"
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
-         "urlTemplate" : "dgrp_r6/dgrp.r2.vcf.gz",
+         "urlTemplate" : "http://flybase.org/jbrowse/data/json/dmel/dgrp_r6/dgrp.r2.vcf.gz",
          "type" : "JBrowse/View/Track/HTMLVariants"
       },
 
