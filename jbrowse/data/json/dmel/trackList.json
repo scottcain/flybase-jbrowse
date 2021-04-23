@@ -505,7 +505,7 @@
 				 }, 
          "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
 				 "glyph" : "{variationGlyph}",
-         "urlTemplate" : "agr_variants/VCF_R6_38.vcf.gz",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/VCF/4.0.0/fly-latest.vcf.gz",
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures"
       },
