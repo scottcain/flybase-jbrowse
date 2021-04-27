@@ -132,7 +132,7 @@
 					 "iconClass" : "dijitIconDatabase",
            "action" : "contentDialog",
 					 "hideIframeDialogUrl" : "true",
-           "content" : "<iframe id='{ID}' src='/cgi-bin/get_summary.pl?mode=OrthologsLinks&caller=JBrowse&species=dmel&fbid={Accession}' height='150' width='250'></iframe>",
+           "content" : "<iframe id='{ID}' src='http://flybase.org/cgi-bin/get_summary.pl?mode=OrthologsLinks&caller=JBrowse&species=dmel&fbid={Accession}' height='150' width='250'></iframe>",
            "label" : "View orthologs"
          },
          "unsafeMouseover": true,
@@ -237,7 +237,7 @@
 					 "iconClass" : "dijitIconDatabase",
            "action" : "contentDialog",
 					 "hideIframeDialogUrl" : "true",
-           "content" : "<iframe id='{ID}_fbab' src='/cgi-bin/get_summary.pl?mode=ForJBrowse&caller=JBrowse&db=fbab&xtra={ID}_fbab&fbid={Accession}' width=150 height=150></iframe>",
+           "content" : "<iframe id='{ID}_fbab' src='http://flybase.org/cgi-bin/get_summary.pl?mode=ForJBrowse&caller=JBrowse&db=fbab&xtra={ID}_fbab&fbid={Accession}' width=150 height=150></iframe>",
 					 "label": "{aberrationBalloon}"
 				 },
          "unsafeMouseover": true,
@@ -262,7 +262,7 @@
 					 "iconClass" : "dijitIconDatabase",
            "action" : "contentDialog",
 					 "hideIframeDialogUrl" : "true",
-           "content" : "<iframe id='{ID}_fbab' src='/cgi-bin/get_summary.pl?mode=ForJBrowse&caller=JBrowse&db=fbab&xtra={ID}_fbab&fbid={Accession}' width=150 height=150></iframe>",
+           "content" : "<iframe id='{ID}_fbab' src='http://flybase.org/cgi-bin/get_summary.pl?mode=ForJBrowse&caller=JBrowse&db=fbab&xtra={ID}_fbab&fbid={Accession}' width=150 height=150></iframe>",
 					 "label": "{aberrationBalloon}"
 				 },
          "unsafeMouseover": true,
@@ -284,7 +284,7 @@
 					 "iconClass" : "dijitIconDatabase",
            "action" : "contentDialog",
 					 "hideIframeDialogUrl" : "true",
-           "content" : "<iframe id='{ID}_fbab' src='/cgi-bin/get_summary.pl?mode=ForJBrowse&caller=JBrowse&db=fbab&xtra={ID}_fbab&fbid={Accession}' width=150 height=150></iframe>",
+           "content" : "<iframe id='{ID}_fbab' src='http://flybase.org/cgi-bin/get_summary.pl?mode=ForJBrowse&caller=JBrowse&db=fbab&xtra={ID}_fbab&fbid={Accession}' width=150 height=150></iframe>",
 				 },
          "label" : "deleted_segment_sc",
          "unsafeMouseover": true,
@@ -308,7 +308,7 @@
 					 "iconClass" : "dijitIconDatabase",
            "action" : "contentDialog",
 					 "hideIframeDialogUrl" : "true",
-           "content" : "<iframe id='{ID}_fbab' src='/cgi-bin/get_summary.pl?mode=ForJBrowse&caller=JBrowse&db=fbab&xtra={ID}_fbab&fbid={Accession}' width=150 height=150></iframe>"
+           "content" : "<iframe id='{ID}_fbab' src='http://flybase.org/cgi-bin/get_summary.pl?mode=ForJBrowse&caller=JBrowse&db=fbab&xtra={ID}_fbab&fbid={Accession}' width=150 height=150></iframe>"
 				 },
          "label" : "deleted_segment_bdk",
          "unsafeMouseover": true,
@@ -1753,7 +1753,7 @@
 					 "iconClass" : "dijitIconDatabase",
            "action" : "contentDialog",
 					 "hideIframeDialogUrl" : "true",
-           "content" : "<iframe id='{ID}_fbab' src='/cgi-bin/get_summary.pl?mode=ForJBrowse&caller=JBrowse&db=fbab&xtra={ID}_fbab&fbid={Accession}' width=150 height=150></iframe>"
+           "content" : "<iframe id='{ID}_fbab' src='http://flybase.org/cgi-bin/get_summary.pl?mode=ForJBrowse&caller=JBrowse&db=fbab&xtra={ID}_fbab&fbid={Accession}' width=150 height=150></iframe>"
 				 },
          "label" : "duplicated_segment_sc",
          "unsafeMouseover": true,
