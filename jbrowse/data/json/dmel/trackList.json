@@ -30,7 +30,7 @@
          },
          "onClick" : {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}",
+						"url": "https:/flybase.org/reports/{ID}",
 					  "label": "{geneBalloon}"
          },
          "unsafeMouseover": true,
@@ -88,7 +88,7 @@
   			 "subfeatureDetailLevel": 3,
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}"
+						"url": "https:/flybase.org/reports/{ID}"
 				 },
          "unsafeMouseover": true,
          "unsafePopup": true,
@@ -109,7 +109,7 @@
          },
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}"
+						"url": "https:/flybase.org/reports/{ID}"
 				 },
          "unsafeMouseover": true,
          "unsafePopup": true,
@@ -154,7 +154,7 @@
          },
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}"
+						"url": "https:/flybase.org/reports/{ID}"
 				 },
          "unsafeMouseover": true,
          "unsafePopup": true,
@@ -214,7 +214,7 @@
          },
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}"
+						"url": "https:/flybase.org/reports/{ID}"
 				 },
          "unsafeMouseover": true,
          "unsafePopup": true,
@@ -355,7 +355,7 @@
          },
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}",
+						"url": "https:/flybase.org/reports/{ID}",
 						"label": "{insertionBalloon}"
 				 },
          "unsafeMouseover": true,
@@ -375,7 +375,7 @@
          "compress" : 0,
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{FBID}",
+						"url": "https:/flybase.org/reports/{FBID}",
 						"label": "{insertionBalloon}"
 				 },
          "label" : "insertion_sc",
@@ -406,7 +406,7 @@
          },
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{related_allele}"
+						"url": "https:/flybase.org/reports/{related_allele}"
 				 },
          "unsafeMouseover": true,
          "unsafePopup": true,
@@ -427,7 +427,7 @@
          },
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{related_allele}"
+						"url": "https:/flybase.org/reports/{related_allele}"
 				 },
          "unsafeMouseover": true,
          "unsafePopup": true,
@@ -448,7 +448,7 @@
          },
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{related_allele}"
+						"url": "https:/flybase.org/reports/{related_allele}"
 				 },
          "unsafeMouseover": true,
          "unsafePopup": true,
@@ -469,7 +469,7 @@
          },
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{related_allele}"
+						"url": "https:/flybase.org/reports/{related_allele}"
 				 },
          "unsafeMouseover": true,
          "unsafePopup": true,
@@ -521,7 +521,7 @@
          },
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{related_allele}"
+						"url": "https:/flybase.org/reports/{related_allele}"
 				 },
          "unsafeMouseover": true,
          "unsafePopup": true,
@@ -560,7 +560,7 @@
          "key" : "Putative Brain Enhancers (Janelia GAL4 lines)",
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}"
+						"url": "https:/flybase.org/reports/{ID}"
 				 },
          "unsafeMouseover": true,
          "unsafePopup": true,
@@ -580,7 +580,7 @@
          "key" : "Putative Enhancers (VDRC Vienna Tile GAL4 lines)",
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{Id}"
+						"url": "https:/flybase.org/reports/{Id}"
 				 },
          "unsafeMouseover": true,
          "unsafePopup": true,
@@ -612,7 +612,7 @@
 				 }, 
          "onClick" : {
            "action" : "iframeDialog",
-           "url" : "https:/wiki.flybase.org/reports/{id}",
+           "url" : "https:/flybase.org/reports/{id}",
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
@@ -633,7 +633,7 @@
 				 }, 
          "onClick" : {
            "action" : "iframeDialog",
-           "url" : "https:/wiki.flybase.org/reports/{id}",
+           "url" : "https:/flybase.org/reports/{id}",
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
@@ -654,7 +654,7 @@
 				 }, 
          "onClick" : {
            "action" : "iframeDialog",
-           "url" : "https:/wiki.flybase.org/reports/{id}",
+           "url" : "https:/flybase.org/reports/{id}",
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
@@ -675,7 +675,7 @@
 				 }, 
          "onClick" : {
            "action" : "iframeDialog",
-           "url" : "https:/wiki.flybase.org/reports/{Alias}",
+           "url" : "https:/flybase.org/reports/{Alias}",
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
@@ -696,7 +696,7 @@
 				 }, 
          "onClick" : {
            "action" : "iframeDialog",
-           "url" : "https:/wiki.flybase.org/reports/{id}",
+           "url" : "https:/flybase.org/reports/{id}",
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
@@ -817,7 +817,7 @@
 				 }, 
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{Alias}"
+						"url": "https:/flybase.org/reports/{Alias}"
 				 },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
@@ -838,7 +838,7 @@
 				 }, 
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}"
+						"url": "https:/flybase.org/reports/{ID}"
 				 },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
@@ -859,7 +859,7 @@
 				 }, 
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}"
+						"url": "https:/flybase.org/reports/{ID}"
 				 },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
@@ -880,7 +880,7 @@
 				 }, 
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}"
+						"url": "https:/flybase.org/reports/{ID}"
 				 },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
@@ -901,7 +901,7 @@
 				 }, 
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}"
+						"url": "https:/flybase.org/reports/{ID}"
 				 },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
@@ -922,7 +922,7 @@
 				 }, 
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{Accession}"
+						"url": "https:/flybase.org/reports/{Accession}"
 				 },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
@@ -946,7 +946,7 @@
          },
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{related_allele}"
+						"url": "https:/flybase.org/reports/{related_allele}"
 				 },
          "unsafeMouseover": true,
          "unsafePopup": true,
@@ -970,7 +970,7 @@
          "compress" : 0,
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{Associated_with}"
+						"url": "https:/flybase.org/reports/{Associated_with}"
 				 },
          "label" : "CHORI-321_BAC",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
@@ -991,7 +991,7 @@
          "compress" : 0,
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{Associated_with}"
+						"url": "https:/flybase.org/reports/{Associated_with}"
 				 },
          "label" : "CHORI-322_BAC",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
@@ -1090,7 +1090,7 @@
          "compress" : 0,
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}"
+						"url": "https:/flybase.org/reports/{ID}"
 				 },
          "unsafeMouseover": true,
          "unsafePopup": true,
@@ -1118,7 +1118,7 @@
          },
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}",
+						"url": "https:/flybase.org/reports/{ID}",
 						"label": "{insulatorBalloon}"
 				 },
          "unsafeMouseover": true,
@@ -1141,7 +1141,7 @@
          },
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}",
+						"url": "https:/flybase.org/reports/{ID}",
 						"label": "{insulatorBalloon}"
 				 },
          "unsafeMouseover": true,
@@ -1164,7 +1164,7 @@
          },
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}"
+						"url": "https:/flybase.org/reports/{ID}"
 				 },
          "unsafeMouseover": true,
          "unsafePopup": true,
@@ -1185,7 +1185,7 @@
          },
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}"
+						"url": "https:/flybase.org/reports/{ID}"
 				 },
          "unsafeMouseover": true,
          "unsafePopup": true,
@@ -1211,7 +1211,7 @@
          },
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}"
+						"url": "https:/flybase.org/reports/{ID}"
 				 },
          "unsafeMouseover": true,
          "unsafePopup": true,
@@ -1229,7 +1229,7 @@
          "compress" : 0,
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}"
+						"url": "https:/flybase.org/reports/{ID}"
 				 },
          "unsafeMouseover": true,
          "unsafePopup": true,
@@ -1249,7 +1249,7 @@
          "compress" : 0,
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}"
+						"url": "https:/flybase.org/reports/{ID}"
 				 },
          "unsafeMouseover": true,
          "unsafePopup": true,
@@ -1269,7 +1269,7 @@
          "compress" : 0,
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}"
+						"url": "https:/flybase.org/reports/{ID}"
 				 },
          "unsafeMouseover": true,
          "unsafePopup": true,
@@ -1289,7 +1289,7 @@
          "compress" : 0,
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}"
+						"url": "https:/flybase.org/reports/{ID}"
 				 },
          "unsafeMouseover": true,
          "unsafePopup": true,
@@ -1309,7 +1309,7 @@
          "compress" : 0,
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}"
+						"url": "https:/flybase.org/reports/{ID}"
 				 },
          "unsafeMouseover": true,
          "unsafePopup": true,
@@ -1332,7 +1332,7 @@
          },
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}"
+						"url": "https:/flybase.org/reports/{ID}"
 				 },
          "unsafeMouseover": true,
          "unsafePopup": true,
@@ -1353,7 +1353,7 @@
          },
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}"
+						"url": "https:/flybase.org/reports/{ID}"
 				 },
          "unsafeMouseover": true,
          "unsafePopup": true,
@@ -1374,7 +1374,7 @@
          },
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}"
+						"url": "https:/flybase.org/reports/{ID}"
 				 },
          "unsafeMouseover": true,
          "unsafePopup": true,
@@ -1395,7 +1395,7 @@
          },
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}"
+						"url": "https:/flybase.org/reports/{ID}"
 				 },
          "unsafeMouseover": true,
          "unsafePopup": true,
@@ -1416,7 +1416,7 @@
          },
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}"
+						"url": "https:/flybase.org/reports/{ID}"
 				 },
          "unsafeMouseover": true,
          "unsafePopup": true,
@@ -1437,7 +1437,7 @@
          },
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}"
+						"url": "https:/flybase.org/reports/{ID}"
 				 },
          "unsafeMouseover": true,
          "unsafePopup": true,
@@ -1462,7 +1462,7 @@
          },
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}"
+						"url": "https:/flybase.org/reports/{ID}"
 				 },
          "unsafeMouseover": true,
          "unsafePopup": true,
@@ -1550,7 +1550,7 @@
          },
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}",
+						"url": "https:/flybase.org/reports/{ID}",
 					  "label": "{TSSRNASeqBalloon}"
 				 },
          "unsafeMouseover": true,
@@ -1573,7 +1573,7 @@
          },
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}"
+						"url": "https:/flybase.org/reports/{ID}"
 				 },
          "unsafeMouseover": true,
          "unsafePopup": true,
@@ -1594,7 +1594,7 @@
          },
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{Accession}",
+						"url": "https:/flybase.org/reports/{Accession}",
 					  "label": "{junctionBalloon}"
 				 },
          "unsafeMouseover": true,
@@ -1617,7 +1617,7 @@
          },
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}"
+						"url": "https:/flybase.org/reports/{ID}"
 				 },
          "unsafeMouseover": true,
          "unsafePopup": true,
@@ -1638,7 +1638,7 @@
          },
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}"
+						"url": "https:/flybase.org/reports/{ID}"
 				 },
          "unsafeMouseover": true,
          "unsafePopup": true,
@@ -1710,7 +1710,7 @@
          },
 				 "onClick": {
 						"action": "newWindow",
-						"url": "https:/wiki.flybase.org/reports/{ID}.html"
+						"url": "https:/flybase.org/reports/{ID}.html"
 				 },
          "label" : "proteomic_peptides",
          "unsafeMouseover": true,
